@@ -1,8 +1,8 @@
 #!/usr/bin/env php
 <?php
-namespace Php\Project;
+namespace Php\Project\Bin;
 
-use function Php\Project\Engine\runBrainEven;
+use function Php\Project\Games\BrainEven\runBrainEven;
 
 
 $autoloadPathGlobal = __DIR__ . '/../../../autoload.php';
