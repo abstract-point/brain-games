@@ -6,3 +6,5 @@
 [![asciicast](https://asciinema.org/a/595610.svg)](https://asciinema.org/a/595610)
 ### Asciinema BrainCalc game
 [![asciicast](https://asciinema.org/a/595738.svg)](https://asciinema.org/a/595738)
+### Asciinema BrainGcd game
+[![asciicast](https://asciinema.org/a/596284.svg)](https://asciinema.org/a/596284)
