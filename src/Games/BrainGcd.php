@@ -33,5 +33,3 @@ function runBrainGcd()
     runGame($gameGreeting, $gameData);
 }
 
-print_r(calculateGcd(7, 29));
-
