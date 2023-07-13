@@ -31,7 +31,7 @@ function runBrainCalc()
                 $rightAnswer = $firstNum * $secondNum;
                 break;
         }
-        
+
         $gameData[$question] = (string) $rightAnswer;
         $counterOfRightAnswer++;
     }
