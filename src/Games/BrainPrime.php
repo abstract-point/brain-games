@@ -1,9 +1,9 @@
 <?php
+
 namespace Php\Project\Games\BrainPrime;
 
 use function cli\line;
 use function cli\prompt;
-
 use function Php\Project\Engine\runGame;
 
 function isPrime(int $num): bool

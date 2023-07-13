@@ -4,7 +4,6 @@ namespace Php\Project\Games\BrainEven;
 
 use function cli\line;
 use function cli\prompt;
-
 use function Php\Project\Engine\runGame;
 
 function isEven($num)

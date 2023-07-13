@@ -3,7 +3,6 @@
 namespace Php\Project\Games\BrainGcd;
 
 use function Php\Project\Engine\runGame;
-
 use function cli\line;
 use function cli\prompt;
 
@@ -32,4 +31,3 @@ function runBrainGcd()
     }
     runGame($gameGreeting, $gameData);
 }
-

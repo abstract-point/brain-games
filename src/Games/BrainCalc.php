@@ -4,7 +4,6 @@ namespace Php\Project\Games\BrainCalc;
 
 use function cli\line;
 use function cli\prompt;
-
 use function Php\Project\Engine\runGame;
 
 function runBrainCalc()

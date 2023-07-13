@@ -1,8 +1,8 @@
 <?php
+
 namespace Php\Project\Games\BrainProgression;
 
 use function Php\Project\Engine\runGame;
-
 use function cli\line;
 use function cli\prompt;
 
