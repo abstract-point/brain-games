@@ -7,7 +7,7 @@ use function cli\prompt;
 
 function runGame(string $gameGreeting, array $gameData)
 {
-    line('Welcome to the Brain Games!');
+    line("Welcome to the Brain Games!");
     $playerName = prompt('May I have your name?');
     line("Hello, %s!", $playerName);
     line($gameGreeting);
@@ -20,11 +20,11 @@ function runGame(string $gameGreeting, array $gameData)
         if ($playerAnswer === $rigthAnswer) {
             line('Correct!');
         } else {
-            line('%s is wrong answer ;(. Correct answer was %s.', $playerAnswer, $rigthAnswer);
-            line('Let`s try again, %s!', $playerName);
-            return;
+            line("'%s' is wrong answer ;(. Correct answer was '%s'.", $playerAnswer, $rigthAnswer);
+            line("Let`s try again, %s!", $playerName);
+            exit;
         }
     }
 
-    line('Congratulations, %s!', $playerName);
+    line("Congratulations, %s!", $playerName);
 }
