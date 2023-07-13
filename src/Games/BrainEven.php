@@ -6,7 +6,7 @@ use function cli\line;
 use function cli\prompt;
 use function Php\Project\Engine\runGame;
 
-function isEven($num)
+function isEven(int $num)
 {
     return $num % 2 === 0;
 }

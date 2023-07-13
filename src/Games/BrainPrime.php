@@ -10,7 +10,7 @@ function isPrime(int $num): bool
 {
     $primeNum = [2, 3, 5, 7, 11, 13, 17, 19, 23, 29, 31, 37, 41, 43, 47];
 
-    return in_array($num, $primeNum) ? true : false;
+    return in_array($num, $primeNum, $strict = false) ? true : false;
 }
 
 function runBrainPrime()
