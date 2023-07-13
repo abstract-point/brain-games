@@ -10,3 +10,5 @@
 [![asciicast](https://asciinema.org/a/596284.svg)](https://asciinema.org/a/596284)
 ### Asciinema BrainProgression game
 [![asciicast](https://asciinema.org/a/596300.svg)](https://asciinema.org/a/596300)
+### Asciinema BrainPrime game
+[![asciicast](https://asciinema.org/a/596455.svg)](https://asciinema.org/a/596455)
