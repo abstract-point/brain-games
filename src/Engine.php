@@ -20,7 +20,8 @@ function runGame(string $gameGreeting, array $gameData)
         if ($playerAnswer === $rigthAnswer) {
             line('Correct!');
         } else {
-            line('%s is wrong answer ;(. Correct answer was %s.'.PHP_EOL.'Let`s try again, %s!', $playerAnswer, $rigthAnswer, $playerName);
+            line('%s is wrong answer ;(. Correct answer was %s.', $playerAnswer, $rigthAnswer);
+            line('Let`s try again, %s!', $playerName);
             return;
         }
     }
