@@ -1,5 +1,5 @@
 {
-    "name": "brain-games",
+    "name": "abstract-point/brain-games",
     "bin": [
         "bin/brain-games",
         "bin/brain-even",
@@ -9,9 +9,6 @@
         "bin/brain-prime"
     ],
     "autoload": {
-        "psr-4": {
-            "Hexlet\\Code\\": "src/"
-        },
         "files": [
             "src/Cli.php",
             "src/Engine.php",
