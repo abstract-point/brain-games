@@ -1,7 +1,22 @@
-### Hexlet tests and linter status:
-[![Actions Status](https://github.com/Ivan-Lysenko/php-project-45/workflows/hexlet-check/badge.svg)](https://github.com/Ivan-Lysenko/php-project-45/actions)
+# Brain games
+
+### Codeclimate status:
 [![Maintainability](https://api.codeclimate.com/v1/badges/476307dba3e56d69351d/maintainability)](https://codeclimate.com/github/Ivan-Lysenko/php-project-45/maintainability)
 [![Test Coverage](https://api.codeclimate.com/v1/badges/476307dba3e56d69351d/test_coverage)](https://codeclimate.com/github/Ivan-Lysenko/php-project-45/test_coverage)
+
+### Description
+Collection of small console games
+
+### System requires
+   PHP 7+
+
+### Installation
+```sh
+git clone https://github.com/abstract-point/brain-games.git
+cd brain-games
+make install
+```   
+
 ### Asciinema BrainEven game
 [![asciicast](https://asciinema.org/a/595610.svg)](https://asciinema.org/a/595610)
 ### Asciinema BrainCalc game
