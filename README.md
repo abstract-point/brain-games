@@ -8,7 +8,7 @@
 Collection of small console games
 
 ### System requires
-   PHP 7+
+   [PHP](https://www.php.net/) 7+
 
 ### Installation
 ```sh
@@ -16,6 +16,30 @@ git clone https://github.com/abstract-point/brain-games.git
 cd brain-games
 make install
 ```   
+### Using
+
+Choose one of the following commands:
+
+- To play Brain even game:
+  ```sh
+  make brain-even
+  ```
+- To play Brain calculator game:
+  ```sh
+  make brain-calc
+  ```
+- To play Brain greatest common divisor game:
+  ```sh
+  make brain-calc
+  ```
+- To play Brain progression game:
+  ```sh
+  make brain-calc
+  ```
+- To play Brain prime number game:
+  ```sh
+  make brain-calc
+  ```
 
 ### Asciinema BrainEven game
 [![asciicast](https://asciinema.org/a/595610.svg)](https://asciinema.org/a/595610)
